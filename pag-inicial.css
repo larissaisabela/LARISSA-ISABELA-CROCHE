@@ -1,0 +1,150 @@
+/* Estilo global */
+body {
+    font-family: Georgia, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #dcedf1;
+    text-align: center;
+    color: #3e3e3e;
+  }
+  
+  /* Cabeçalho */
+  header {
+    background-color: #dcedf1;
+    padding: 20px;
+  }
+  
+  header img {
+    width: 280px;
+    display: block;
+    margin: 0 auto 10px;
+  }
+  
+  header h1 {
+    font-size: 2rem;
+    color: #6a1b4d;
+  }
+  
+  /* Navegação */
+  nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 15px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #54518b;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  nav ul li a:hover {
+    color: #8a479b;
+  }
+  
+  /* Seções principais */
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 40px;
+    max-width: 900px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  }
+  
+  section h2 {
+    color: #6a1b4d;
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+  }
+  
+  section p,
+  section li {
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+  
+  /* Lista de produtos */
+  #produtos ul {
+    padding: 0;
+    list-style: none;
+  }
+  
+  #produtos li {
+    margin-bottom: 10px;
+  }
+  
+  /* Galeria de imagens */
+  #imagens {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+    background-color: #fff0f5;
+    border-radius: 30px;
+  }
+  
+  #imagens div {
+    max-width: 280px;
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease;
+    text-align: center;
+  }
+  
+  #imagens div:hover {
+    transform: scale(1.03);
+  }
+  
+  #imagens img {
+    width: 100%;
+    height: auto;
+    border-radius: 16px;
+    object-fit: cover;
+  }
+  
+  #imagens h3 {
+    font-family: Georgia, serif;
+    font-size: 1rem;
+    color: #6a1b4d;
+    margin-top: 10px;
+  }
+  
+  /* Rodapé */
+  footer {
+    background-color: #8db7ea;
+    padding: 20px;
+    margin-top: 30px;
+    color: #ffffff;
+  }
+  
+  footer p {
+    margin-bottom: 10px;
+  }
+  
+  footer ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  footer ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+  }
+  
