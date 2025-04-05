@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login do Cliente - Larissa Isabela Crochê</title>
+  <link rel="stylesheet" href="pag-inicial.css">
+</head>
+
+<body>
+  <header>
+    <img src="./img/logo lari croche.jpg" alt="Logo Larissa Isabela Crochê" />
+    <h1>Cadastro de Cliente</h1>
+  </header>
+
+  <main>
+    <section>
+      <h2>Faça seu cadastro</h2>
+      <form action="/salvar-dados" method="POST" style="display: flex; flex-direction: column; align-items: center; gap: 15px; max-width: 500px; margin: auto;">
+
+        <input type="text" name="nome" placeholder="Nome completo" required style="padding: 10px; width: 100%; border-radius: 10px; border: 1px solid #ccc;">
+
+        <input type="email" name="email" placeholder="E-mail" required style="padding: 10px; width: 100%; border-radius: 10px; border: 1px solid #ccc;">
+
+        <input type="tel" name="telefone" placeholder="Telefone" required style="padding: 10px; width: 100%; border-radius: 10px; border: 1px solid #ccc;">
+
+        <select name="estado" required style="padding: 10px; width: 100%; border-radius: 10px; border: 1px solid #ccc;">
+          <option value="">Selecione seu estado</option>
+          <option value="SP">São Paulo</option>
+          <option value="RJ">Rio de Janeiro</option>
+          <option value="MG">Minas Gerais</option>
+          <option value="BA">Bahia</option>
+          <option value="RS">Rio Grande do Sul</option>
+          <!-- Adicione mais estados se quiser -->
+        </select>
+
+        <button type="submit" style="padding: 12px 20px; background-color: #6a1b4d; color: #fff; border: none; border-radius: 12px; font-size: 1rem; cursor: pointer;">Cadastrar</button>
+
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Larissa Isabela Crochê. Todos os direitos reservados.</p>
+  </footer>
+</body>
+
+</html>
